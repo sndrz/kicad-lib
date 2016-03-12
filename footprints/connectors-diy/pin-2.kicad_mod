@@ -1,0 +1,15 @@
+(module pin-2 (layer F.Cu) (tedit 56E3F519)
+  (fp_text reference PIN-2 (at 1.27 -2.54 180) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 1.27 2.54) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.2) (layers *.Cu *.SilkS *.Mask))
+  (pad 2 thru_hole circle (at 2.54 0) (size 2 2) (drill 1.2) (layers *.Cu *.SilkS *.Mask))
+  (model pin_array\pins_array_2x1.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
