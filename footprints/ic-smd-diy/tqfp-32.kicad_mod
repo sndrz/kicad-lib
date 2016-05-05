@@ -1,5 +1,5 @@
 (module tqfp-32 (layer F.Cu) (tedit 56E26BFA)
-  (fp_text reference TQFP-32 (at 0.635 -7.62) (layer F.SilkS) hide
+  (fp_text reference REF** (at 0.635 -7.62) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_text value VAL** (at 0 7.62) (layer F.SilkS)
